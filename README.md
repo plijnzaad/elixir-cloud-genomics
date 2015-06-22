@@ -6,3 +6,7 @@ Contributors:
 * Bob Freeman
 * Adina Howe
 * Andréa Matsunaga
+
+Course objectives:
+
+Computational bottlenecks are frequently faced when dealing with large
