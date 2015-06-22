@@ -17,7 +17,7 @@ Many european countries have their own Clouds for scientific usage.
 
 * Netherlands Cloud: Surf Sara (https://ui4.cloud.sara.nl/)
 * Finnish Cloud: CSC- Center for Science (https://www.csc.fi/en)
-*French Cloud: 
+* French Cloud: IFB - French Institute of Bioinformatics (http://www.france-bioinformatique.fr/) 
 
 Unfortunately, users of every country should have access to their respective clusters which normally have their own interfaces and require specific knowledge.
 
