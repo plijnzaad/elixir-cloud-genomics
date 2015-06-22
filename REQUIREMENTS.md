@@ -1,5 +1,5 @@
 This file describes a number of steps that need to be taken to set up cloud access to learners.
-This will depend on cloud infrastructure used for workshop. The present directions are specific to SURF SARA HPC cloud (uses OpenNebula), running CentOS7.
+This will depend on cloud infrastructure used for workshop. However, the directions may be still serve as inspiration to the other locations. The present directions are specific to SURF SARA HPC cloud (uses OpenNebula), running CentOS7.
 
 
 #Setting up the virtual machines
