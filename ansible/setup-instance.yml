@@ -1,0 +1,19 @@
+---
+- name: Configure vm for data carpentry cloud lesson
+  hosts: demo
+  remote_user: cloud-user
+  sudo: yes
+
+
+  tasks:
+   - name: Install_java
+     apt: name=openjdk-7-jdk state=latest install_recommends=no
+
+   - name: Create_user
+     user: name=joe shell=/bin/bash groups=sudo append=yes password='{{password}}' update_password=always
+
+   - name: authenticate with password when ssh
+     lineinfile: dest=/etc/ssh/sshd_config regexp='^PasswordAuthentication' line='PasswordAuthentication yes'
+
+   - name: restart_sshd
+     command: service ssh restart
