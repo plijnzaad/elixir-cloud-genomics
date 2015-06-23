@@ -6,6 +6,11 @@ Contributors:
 * Bob Freeman
 * Adina Howe
 * Andréa Matsunaga
+* Bertrand
+* Francesco
+* Walid
+* Philip Lijnzaad
+* Mateusz Kuzak
 
 Course objectives:
 
@@ -15,7 +20,7 @@ For this purpose, it is useful to give the end users the opportunity to work on 
 
 Many european countries have their own Clouds for scientific usage.
 
-* Netherlands Cloud: Surf Sara (https://ui4.cloud.sara.nl/)
+* Netherlands Cloud: [SurfSARA](https://surfsara.nl/systems/hpc-cloud)
 * Finnish Cloud: CSC- Center for Science (https://www.csc.fi/en)
 * French Cloud: IFB - French Institute of Bioinformatics (http://www.france-bioinformatique.fr/)
 * Switzerland Life Sciences Cluster: Swiss Institute of Bioinformatics - SIB (http://www.vital-it.ch/)
