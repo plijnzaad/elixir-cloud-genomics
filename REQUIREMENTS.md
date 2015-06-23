@@ -2,7 +2,9 @@ This file describes a number of steps that need to be taken to set up cloud acce
 This will depend on cloud infrastructure used for workshop. However, the directions may be still serve as inspiration to the other locations. The present directions are specific to SURF SARA HPC cloud (uses OpenNebula), running CentOS7.
 
 
-#Setting up the virtual machines
+#Setting up the virtual machines 
+
+## using Ansible
 
 ##Getting the images
 
