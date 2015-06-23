@@ -1,6 +1,11 @@
-This file describes a number of steps that need to be taken to set up cloud access to learners.
-This will depend on cloud infrastructure used for workshop. However, the directions may be still serve as inspiration to the other locations. The present directions are specific to SURF SARA HPC cloud (uses OpenNebula), running CentOS7.
+This file describes the steps that have to be taken before running the workshop with 'elixir-cloud-genomics' lesson.
+You (the taecher) need to have access to cloud interface and create virtual machines that can be used during the workshop. 
 
+Folowing software is expected to be available on the vm that students used:
+* Ubuntu 14.04
+* Java (eg. openjdk-7-jdk)
+* wget
+* htop
 
 #Setting up the virtual machines 
 
