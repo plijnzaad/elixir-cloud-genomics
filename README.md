@@ -38,7 +38,7 @@ What you will learn from this cousre:
 * Make checks for space, quotas and other dependencies
 * Install a software on the Cloud
 * Run the Software on the data you already moved from your local machine
-* Fetch back from the Cloud your output results when done and visualize on your local machine
+* Fetch back your output results from the Cloud when done and visualize them on your local machine
 
 
 
