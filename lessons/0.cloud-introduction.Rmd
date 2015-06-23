@@ -358,11 +358,11 @@ sys	0m0.432s
   	* Microsoft Azure: https://azure.microsoft.com/en-us/
   	* Google Cloud Platform: https://cloud.google.com/
   * Community Cloud: 
-		* iPlant's Atmosphere: http://www.iplantcollaborative.org/ci/atmosphere
+	* iPlant's Atmosphere: http://www.iplantcollaborative.org/ci/atmosphere
   	* iPlant's help page: https://pods.iplantcollaborative.org/wiki/display/atmman/Atmosphere+Manual+Table+of+Contents
- 		* Netherlands Cloud: Surf Sara (https://ui4.cloud.sara.nl/)
-		* Finnish Cloud: CSC- Center for Science (https://www.csc.fi/en)
-		* French Cloud: IFB - French Institute of Bioinformatics (http://www.france-bioinformatique.fr/)
+ 	* Netherlands Cloud: Surf Sara (https://ui4.cloud.sara.nl/)
+	* Finnish Cloud: CSC- Center for Science (https://www.csc.fi/en)
+	* French Cloud: IFB - French Institute of Bioinformatics (http://www.france-bioinformatique.fr/)
  * HPC offerings:
-  * XSEDE: https://www.xsede.org/high-performance-computing
-	* Switzerland Life Sciences Cluster: Swiss Institute of Bioinformatics - SIB (http://www.vital-it.ch/)
+ 	* XSEDE: https://www.xsede.org/high-performance-computing
+ 	* Switzerland Life Sciences Cluster: Swiss Institute of Bioinformatics - SIB (http://www.vital-it.ch/)
