@@ -1,0 +1,4 @@
+[demo]
+ip adresses
+[demo:vars]
+password=md5 checksum of the password
