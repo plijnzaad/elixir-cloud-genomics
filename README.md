@@ -6,11 +6,12 @@ Contributors:
 * Bob Freeman
 * Adina Howe
 * Andréa Matsunaga
-* Bertrand
-* Francesco
-* Walid
+* Bertrand Néron
+* Francesco Tabaro
+* Walid Gharib
 * Philip Lijnzaad
 * Mateusz Kuzak
+* Kalle Happonen
 
 Course objectives:
 
@@ -33,17 +34,17 @@ You will basically learn how to manage your data on the cloud, learn how much co
 Pre-requisite:
 
 * The learners need to be familiar with basic UNIX command line.
-* Windows users should have Git for windows installed - it provides a SHELL working environment. (https://msysgit.github.io/)
-* For UNIX based styems users (UBUNTU, MAC OS), you just need your terminal application open.
+* Windows users should have Git bash for windows installed - it provides a shell working environment. (https://msysgit.github.io/)
+* For UNIX based styems users (Ubuntu, MAC OSX), you just need your terminal application open.
 
 What you will learn from this cousre:
 
 * Connection to a distant machine (in this case it is your respective cloud)
-* Moving data from your local machine to the cloud
-* Make checks for space, quotas and other dependencies
-* Install a software on the Cloud
-* Run the Software on the data you already moved from your local machine
-* Fetch back your output results from the Cloud when done and visualize them on your local machine
+* Copying data from your local machine to your virtual machine in the cloud
+* Check disk space, quotas and other dependencies
+* Install the relevant software in your virtual machine
+* Run the software on the data you already copied from your local machine
+* Fetch back your output results from the Cloud when done, and visualize them on your local machine
 
 
 
