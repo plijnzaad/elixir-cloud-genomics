@@ -1,23 +1,32 @@
-pouta-ansible-demo
-==================
+elixir-cloud-genomics
+=====================
 
-Simple Ansible demo to deploy a machine to Pouta
+Simple Ansible setup to deploy a training environment on an Ubuntu 14.04 virtual machine
 
 To use this demo you will need:
  - Ansible 1.8:
    http://docs.ansible.com/intro_installation.html
+ - Access to the virtual machine to configure
+
+If you also want to deploy the machines, you need:
  - OpenStack command line tools:
    http://docs.openstack.org/user-guide/content/install_clients.html
- - Access to pouta:
-   https://research.csc.fi/pouta-access
- - Your Pouta openstack RC file:
-   https://research.csc.fi/pouta-install-client
+ - Access to an OpenStack cloud
+ - Your openstack RC file
+   
 
 Configuration:
 
-You will need to get some information from your pouta account in order to run this demo. See the comments in demo.hosts and create-instance.yml.
+You will need the IP or hostname of the machine(s) to configure. You will need the *hash* of the password to add. Check the demo.hosts file. 
 
-To launch the demo:
+This playbook automatically adds a user "joe" with the password configured password. To generate the password hash, run
+mkpasswd -m SHA-512
+Enter the desired password and copy the resulting string into demo.hosts. The mkpasswd utility can be found in the whois package.
 
-    ansible-playbook -i demo.hosts -c local create-instance.yml
+To deploy the machines, verify the variables under vars in create-instance.yml, then run:
+    ansible-playbook -i demo.hosts create-instance.yml
+
+To configure the machines, run:
     ansible-playbook -i demo.hosts setup-instance.yml
+
+

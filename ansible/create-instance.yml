@@ -1,0 +1,43 @@
+---
+# Basic demo of using Ansible to create a virtual machine on Pouta.csc.fi
+#
+# You'll need to download and source your credentials before this will work:
+#  https://research.csc.fi/pouta-credentials
+#
+- name: Pouta ansible demo
+  # The OpenStack modules only work with your local machine.
+  hosts: localhost
+  # And it doesn't use local facts
+  gather_facts: false
+
+  vars:
+    pouta_username: "{{ lookup('env','OS_USERNAME') }}"
+    pouta_password: "{{ lookup('env','OS_PASSWORD') }}"
+    tenant_name: "{{ lookup('env','OS_TENANT_NAME') }}"
+    auth_url: "{{ lookup('env','OS_AUTH_URL') }}"
+
+    pouta_tiny: 1a0f1143-47b5-4e8a-abda-eba52ae3c5b9
+    pouta_ubuntu: 32edf26a-eebc-4e32-afc4-65f85b8ffb45
+
+    # These will need changing.
+    demo_key: mkuzak
+    demo_security_groups: default,general-ssh
+    demo_network: 85635ddc-4aa4-4530-8caf-2973de9730ad
+
+  tasks:
+    - name: Create a virtual machine
+      nova_compute:
+        state: present
+        name: "pouta-demo-{{ item }}"
+        login_username: "{{ pouta_username }}"
+        login_password: "{{ pouta_password }}"
+        login_tenant_name: "{{ tenant_name }}"
+        auth_url: "{{ auth_url }}"
+        image_id: "{{ pouta_ubuntu }}"
+        key_name: "{{ demo_key }}"
+        flavor_id: "{{ pouta_tiny }}"
+        security_groups: "{{ demo_security_groups }}"
+        nics:
+          - net-id: "{{ demo_network }}"
+        floating_ips: [ "{{ item }}" ]
+      with_items: groups['demo']
