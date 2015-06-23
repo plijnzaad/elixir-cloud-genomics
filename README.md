@@ -33,9 +33,9 @@ You will basically learn how to manage your data on the cloud, learn how much co
 
 Pre-requisite:
 
-* The learners need to be familiar with basic UNIX command line.
-* Windows users should have Git bash for windows installed - it provides a shell working environment. (https://msysgit.github.io/)
-* For UNIX based styems users (Ubuntu, MAC OSX), you just need your terminal application open.
+* The learners need to be familiar with basic Unix command line.
+* Windows users should have [Git bash (a Unix command line interface) for Windows installed](https://msysgit.github.io/). See also the setup instructions on the workshop's home page.
+* For UNIX based styems users (Ubuntu, Mac OSX), you just need your terminal application open.
 
 What you will learn from this cousre:
 
