@@ -13,8 +13,7 @@ date: "Tuesday, March 24, 2015"
 
 ### Some terms
 
- * Distributed system platform: software layers that facilitates coordination and management of a distributed system (e.g., queue-based system, and MapReduce)
- * Distributed system:
+ * Two kinds of distributed systems:
    * High Performance Computing (HPC): large assemble of physical machines and a homogeneous operating system (e.g., your institutions' HPC, XSEDE's HPC)
    * Cloud Computing: virtual machines, distributed platforms and/or applications offered as a service (e.g., Amazon Web Services, Microsoft Azure, Google Cloud Computing)
  * Distributed application: a computer program that can be run simultaneously on several differnt computers (e.g., mpiBLAST)
@@ -23,8 +22,9 @@ date: "Tuesday, March 24, 2015"
  * Operating system (OS): the basic software layer that allows execution and management of applications. Typical examples are Windows, OSX (Mac) and Linux. 
  * Physical machine: the hardware (processors, memory, disk and network)
 
+In the genomics field, both HPC and Cloud Computing usually run Linux because of its performance, flexibility and availability of a large variety of scientific software.
 
-### HPC vs. Cloud:
+### Differences between HPC and Cloud computing
 
 | HPC | Cloud |
 |:----|:------|
@@ -38,7 +38,6 @@ date: "Tuesday, March 24, 2015"
 | etc. | etc.|
 
 ![HPC vs. Cloud](https://raw.githubusercontent.com/datacarpentry/cloud-genomics/master/lessons/images/HpcVsCloud.png)
-
 
 ### Resources:
 
