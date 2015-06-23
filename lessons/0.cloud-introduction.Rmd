@@ -4,24 +4,25 @@ author: "Data Carpentry"
 date: "Tuesday, March 24, 2015"
 ---
 
-### What are some of reasons to access a remote computer system?
+### Why use a remote computer system?
 
- * Your computer does not have enough resources to run the desired analysis (memory, processors, disk space, network bandwidth).
- * You want to produce results faster than your computer can.
- * You cannot install software in your computer (application does not have support for your operating system, conflicts with other existing applications)
+ * Your own computer does not have enough resources to run the desired analysis (memory, processors, disk space, network bandwidth)
+ * You cannot install software in your computer (application does not have support for your operating system, or conflicts with other existing applications)
+ * You want to produce results faster than your computer can, for instance by ...
+ * ... spreading the computational task over several machines running in parallel
 
-### Distributed System Definitions and stacks:
-  (Note that many definitions exist for these terms)
+### Some terms
 
- * Distributed application: an application that can be executed on a distributed system platform (e.g., mpiBLAST)
  * Distributed system platform: software layers that facilitates coordination and management of a distributed system (e.g., queue-based system, and MapReduce)
  * Distributed system:
    * High Performance Computing (HPC): large assemble of physical machines and a homogeneous operating system (e.g., your institutions' HPC, XSEDE's HPC)
    * Cloud Computing: virtual machines, distributed platforms and/or applications offered as a service (e.g., Amazon Web Services, Microsoft Azure, Google Cloud Computing)
+ * Distributed application: a computer program that can be run simultaneously on several differnt computers (e.g., mpiBLAST)
 
- * Virtual machine (VM): software computer that like a physical computer can run an operating system and applications
- * Operating system (OS): the basic software layer that allows execution and management of applications
+ * Virtual machine (VM): a software computer running inside another computer (for flexibility and security)
+ * Operating system (OS): the basic software layer that allows execution and management of applications. Typical examples are Windows, OSX (Mac) and Linux. 
  * Physical machine: the hardware (processors, memory, disk and network)
+
 
 ### HPC vs. Cloud:
 
@@ -52,6 +53,8 @@ date: "Tuesday, March 24, 2015"
  	* Netherlands Cloud: Surf Sara (https://ui4.cloud.sara.nl/)
 	* Finnish Cloud: CSC- Center for Science (https://www.csc.fi/en)
 	* French Cloud: IFB - French Institute of Bioinformatics (http://www.france-bioinformatique.fr/)
+        * *other facilities, often at national level*
  * HPC offerings:
  	* XSEDE: https://www.xsede.org/high-performance-computing
  	* Switzerland Life Sciences Cluster: Swiss Institute of Bioinformatics - SIB (http://www.vital-it.ch/)
+        * *other facilities, often at local or campus level*
